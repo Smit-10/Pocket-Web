@@ -3,7 +3,7 @@
  * size: pixel size of the circular mark
  * withText: show "Pocket AI" wordmark next to the mark
  */
-export default function Logo({ size = 42, withText = true, subtitle }) {
+export default function Logo({ size = 42, withText = true, subtitle, color, AIcolor }) {
   return (
     <div className="flex items-center gap-[14px]">
 
@@ -46,22 +46,22 @@ export default function Logo({ size = 42, withText = true, subtitle }) {
       {withText && (
         <div>
           <h2
-            className="
+            className={`
               text-[24px]
               font-bold
               tracking-[0.2px]
               whitespace-nowrap
-              text-black
+              text-${color}
               [.app.light_&]:text-[#111827]
-            "
+            `}
           >
             Pocket{" "}
             <span
-              className="
-                bg-[linear-gradient(135deg,#00ffff,#6f3cff,#ff4fd8)]
+              className={`
+                bg-${AIcolor}
                 bg-clip-text
                 text-transparent
-              "
+              `}
             >
               AI
             </span>

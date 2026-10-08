@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../logo/Logo";
 
 function Signup() {
 
@@ -10,13 +11,9 @@ function Signup() {
 
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-white text-lg font-bold text-indigo-600">
-            R
+          <div className="flex items-center justify-center rounded-xl bg-transparent text-lg font-bold">
+            <Logo color={"white"} AIcolor={"white"} />
           </div>
-
-          <span className="text-xl font-bold text-white">
-            Pocket AI
-          </span>
         </Link>
 
         {/* Text */}
@@ -55,13 +52,7 @@ function Signup() {
             to="/"
             className="mb-10 flex items-center justify-center gap-2 lg:hidden"
           >
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-600 via-violet-600 to-blue-600 text-lg font-bold text-white">
-              R
-            </div>
-
-            <span className="text-2xl font-bold text-gray-900">
-              PocketAI
-            </span>
+            <Logo color={"black"} AIcolor={"[linear-gradient(135deg,#00ffff,#6f3cff,#ff4fd8)]"}/>
           </Link>
 
           {/* Heading */}
