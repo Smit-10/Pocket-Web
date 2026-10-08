@@ -2,6 +2,8 @@ import DesktopFeature from "../components/home_compo/DesktopFeature"
 import Hero from "../components/home_compo/Hero"
 import Navbar from "../components/home_compo/Navbar"
 import VoiceFeature from "../components/home_compo/VoiceFeature"
+import HowItWorks from "../components/home_compo/HowItWorks"
+import UseCases from "../components/home_compo/UseCases"
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
         <Hero />
         <DesktopFeature />
         <VoiceFeature />
+        <HowItWorks />
+        <UseCases />
       </div>
     </div>
   )
