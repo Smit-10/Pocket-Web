@@ -8,9 +8,9 @@ function Navbar() {
         </div>
 
         <div className="hidden md:flex gap-15 items-center">
-            <div className="cursor-pointer hover:text-purple-700">Features</div>
-            <div className="cursor-pointer hover:text-purple-700">How it works</div>
-            <div className="cursor-pointer hover:text-purple-700">Use Cases</div>
+            <a href="#features"><div className="cursor-pointer hover:text-purple-700">Features</div></a>
+            <a href="#HowItWorks"><div className="cursor-pointer hover:text-purple-700">How it works</div></a>
+            <a href="#UseCases"><div className="cursor-pointer hover:text-purple-700">Use Cases</div></a>
         </div>
 
         <div className="flex gap-3 items-center mr-6">

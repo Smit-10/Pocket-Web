@@ -2,7 +2,7 @@ import VoiceImg from '../images/voice_feature.png'
 
 function VoiceFeature() {
   return (
-    <div className="flex items-center p-8 m-3 flex-col lg:flex-row">
+    <div className="flex items-center p-8 mx-6 flex-col lg:flex-row">
         {/* Pocket dashboard image */}
         <div className="relative pl-4 mr-20">
             <img

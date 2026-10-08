@@ -4,6 +4,8 @@ import Navbar from "../components/home_compo/Navbar"
 import VoiceFeature from "../components/home_compo/VoiceFeature"
 import HowItWorks from "../components/home_compo/HowItWorks"
 import UseCases from "../components/home_compo/UseCases"
+import Features from "../components/home_compo/Features"
+import PdfFeature from "../components/home_compo/PdfFeature"
 
 function Home() {
   return (
@@ -11,8 +13,10 @@ function Home() {
       <Navbar />
       <div className="bg-gray-100 min-h-screen overflow-hidden">
         <Hero />
+        <Features />
         <DesktopFeature />
         <VoiceFeature />
+        <PdfFeature />
         <HowItWorks />
         <UseCases />
       </div>
