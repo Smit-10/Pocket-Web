@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function HowItWorks() {
     return (
-        <div className="flex flex-col gap-8 items-center mb-4 mt-10">
+        <div id="HowItWorks" className="flex flex-col gap-8 items-center mb-4 mt-10">
             <div className="flex flex-col items-center gap-2">
                 <p className="w-fit font-bold text-sm bg-purple-200 text-purple-500 text-bold rounded-2xl p-2">HOW IT WORKS</p>
                 <p className="font-bold text-3xl">Simple process. <span className="text-purple-500">Powerfull results.</span></p>

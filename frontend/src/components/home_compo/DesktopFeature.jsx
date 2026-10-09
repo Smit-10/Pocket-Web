@@ -2,7 +2,7 @@ import DesktopImg from '../images/desktop_feature.png'
 
 function DesktopFeature() {
   return (
-    <div className="flex items-center p-8 m-3 flex-col md:flex-row">
+    <div className="flex items-center p-8 ml-4 flex-col md:flex-row">
             <div className="w-2/3 flex flex-col p-4">
                 <div className="p-1 px-2 bg-purple-200 w-fit text-sm text-purple-500 text-bold font-bold rounded-2xl">
                     DESKTOP AUTOMATION

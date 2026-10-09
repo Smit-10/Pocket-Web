@@ -3,7 +3,7 @@ import DashboardImg from "../images/dashboard_img.png"
 
 function Hero() {
   return (
-    <div className="flex items-center p-8 m-3 flex-col md:flex-row">
+    <div className="flex items-center p-8 mx-4 flex-col md:flex-row">
         <div className="w-2/3 flex flex-col p-4">
             <div className="p-1 px-2 bg-purple-200 w-fit text-sm text-purple-500 text-bold font-bold rounded-2xl">
                 Your Personal Desktop Assistant
@@ -21,9 +21,11 @@ function Hero() {
                         <FaWindows size={18}/> Download Pocket AI
                     </button>
 
-                    <button className="flex items-center gap-2 rounded-xl bg-slate-200 px-5 py-4">
-                        <FaGithub size={18}/> View on Github
-                    </button>
+                    <a href="https://GitHub.com/Abrar822/Pocket-AI" target="_blank">
+                        <button className="flex items-center gap-2 rounded-xl bg-slate-200 hover:bg-slate-300 active:bg-slate-400 px-5 py-4">
+                            <FaGithub size={18}/> View on Github
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

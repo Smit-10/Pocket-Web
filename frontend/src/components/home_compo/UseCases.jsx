@@ -4,7 +4,7 @@ import { PiBagSimpleFill } from "react-icons/pi";
 
 export default function UseCases() {
     return (
-        <div className="flex flex-col gap-8 items-center mb-4 mt-16">
+        <div id="UseCases" className="flex flex-col gap-8 items-center mb-4 mt-12">
             <div className="flex flex-col items-center gap-2">
                 <p className="w-fit font-bold text-sm bg-purple-200 text-purple-500 text-bold rounded-2xl p-2">USE CASES</p>
                 <p className="font-bold text-3xl">Build for different <span className="text-purple-500">workflows.</span></p>
