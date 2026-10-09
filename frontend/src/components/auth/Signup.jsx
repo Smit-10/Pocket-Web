@@ -12,7 +12,7 @@ function Signup() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <div className="flex items-center justify-center rounded-xl bg-transparent text-lg font-bold">
-            <Logo color={"white"} AIcolor={"white"} />
+            <Logo color={"white"} AIcolor={"bg-white"} />
           </div>
         </Link>
 
@@ -145,7 +145,7 @@ function Signup() {
               to="/login"
               className="font-semibold text-indigo-600 hover:text-indigo-700"
             >
-              Sign in
+              Login
             </Link>
 
           </p>

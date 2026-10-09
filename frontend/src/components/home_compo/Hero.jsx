@@ -3,7 +3,7 @@ import DashboardImg from "../images/dashboard_img.png"
 
 function Hero() {
   return (
-    <div className="flex items-center p-8 mx-4 flex-col md:flex-row">
+    <div id="hero" className="flex items-center p-8 mx-4 flex-col md:flex-row">
         <div className="w-2/3 flex flex-col p-4">
             <div className="p-1 px-2 bg-purple-200 w-fit text-sm text-purple-500 text-bold font-bold rounded-2xl">
                 Your Personal Desktop Assistant
@@ -17,7 +17,7 @@ function Hero() {
                 <h1 className="py-6 text-slate-700 text-xl">Pocket AI helps you automate tasks, interact with documents, <br/> browse the web and boost your productivity - all <br /> from your desktop</h1>
 
                 <div className="flex gap-4">
-                    <button className="flex items-center gap-2 rounded-xl bg-purple-600 px-5 py-3 text-white">
+                    <button className="flex items-center gap-2 rounded-xl bg-purple-600 px-5 py-3 text-white cursor-pointer hover:scale-105 hover:shadow-[0_0_18px_rgba(79,70,229,0.45)]transition-all duration-300 ease-out">
                         <FaWindows size={18}/> Download Pocket AI
                     </button>
 

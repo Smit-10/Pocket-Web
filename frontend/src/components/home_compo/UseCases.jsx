@@ -10,7 +10,7 @@ export default function UseCases() {
                 <p className="font-bold text-3xl">Build for different <span className="text-purple-500">workflows.</span></p>
             </div>
             <div className="flex gap-20">
-                <div className="flex gap-4 rounded-2xl shadow-2xl p-4 pr-20">
+                <div className="flex gap-4 rounded-2xl hover:shadow-2xl hover:scale-101 shadow-xl p-4 pr-20 transition-all ease-out">
                     <RiGraduationCapFill size={50} className="rounded-3xl bg-purple-200 text-purple-500 p-2" />
                     <div>
                         <p className="font-bold">Students</p>
@@ -22,7 +22,7 @@ export default function UseCases() {
                         </ul>
                     </div>
                 </div>
-                <div className="flex gap-4 rounded-2xl shadow-2xl p-4 pr-20">
+                <div className="flex gap-4 rounded-2xl hover:scale-101 hover:shadow-2xl shadow-xl p-4 pr-20 transition-all ease-out">
                     <FaCode size={50} className="rounded-3xl bg-purple-200 text-purple-500 p-2" />
                     <div>
                         <p className="font-bold">Developers</p>
@@ -34,7 +34,7 @@ export default function UseCases() {
                         </ul>
                     </div>
                 </div>
-                <div className="flex gap-4 rounded-2xl shadow-2xl p-4 pr-20">
+                <div className="flex gap-4 rounded-2xl hover:scale-101 hover:shadow-2xl shadow-xl p-4 pr-20 transition-all ease-out">
                     <PiBagSimpleFill size={50} className="rounded-3xl bg-purple-200 text-purple-500 p-2" />
                     <div>
                         <p className="font-bold">Professionals</p>

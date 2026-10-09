@@ -12,7 +12,7 @@ function Signup() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <div className="flex items-center justify-center rounded-xl bg-transparent text-lg font-bold">
-            <Logo color={"white"} AIcolor={"white"} />
+            <Logo color={"white"} AIcolor={"bg-white"} />
           </div>
         </Link>
 

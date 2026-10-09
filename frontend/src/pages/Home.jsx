@@ -5,14 +5,14 @@ import Features from '../components/home_compo/Features'
 import VoiceFeature from "../components/home_compo/VoiceFeature"
 import HowItWorks from "../components/home_compo/HowItWorks"
 import UseCases from "../components/home_compo/UseCases"
-import Features from "../components/home_compo/Features"
 import PdfFeature from "../components/home_compo/PdfFeature"
+import Footer from "../components/home_compo/Footer"
 
 function Home() {
   return (
     <div className="">
       <Navbar />
-      <div className="bg-gray-100 min-h-screen overflow-hidden">
+      <div className=" absolute top-15 bg-gray-100 min-h-screen overflow-hidden">
         <Hero />
         <Features />
         <DesktopFeature />
@@ -20,6 +20,7 @@ function Home() {
         <PdfFeature />
         <HowItWorks />
         <UseCases />
+        <Footer/>
       </div>
     </div>
   )

@@ -6,7 +6,7 @@ import { LuDatabase } from "react-icons/lu";
 
 export default function Features() {
     return (
-        <div id="features" className="md:flex flex flex-wrap flex-row justify-evenly items-center  ml-17 mr-11 mb-4 rounded-2xl py-4 overflow-hidden divide-x divide-gray-400 shadow-2xl">
+        <div id="features" className="md:flex flex flex-wrap flex-row justify-evenly items-center  ml-17 mr-11 mb-4 rounded-2xl py-4 overflow-hidden divide-x divide-gray-400 shadow-2xl scroll-mt-20">
             <div className="flex flex-1 flex-col items-center gap-3 py-4">
                 <IoMicOutline size={45} className="rounded-2xl p-1 bg-purple-200 text-purple-600"/>
                 <p className="text-center">
