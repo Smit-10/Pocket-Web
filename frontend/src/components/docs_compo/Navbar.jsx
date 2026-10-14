@@ -1,0 +1,24 @@
+import Logo from "../logo/Logo"
+import {useNavigate} from 'react-router-dom'
+
+function Navbar() {
+    const navigate = useNavigate()
+  return (
+    <nav className="fixed top-0 z-50 flex gap-8 justify-between border-b border-gray-100 w-full backdrop-blur-md bg-white/60 h-15">
+        <div className="p-2 px-6">
+            <Logo color={"black"} textSize={2} AIcolor={"bg-[linear-gradient(135deg,#00ffff,#6f3cff,#ff4fd8)]"}/>
+        </div>
+
+        <div className="hidden md:flex gap-15 items-center">
+            <div className="cursor-pointer hover:text-purple-700" onClick={() => navigate('/')}>Home</div>
+            <a href=""><div className="cursor-pointer hover:text-purple-700">About Us</div></a>
+        </div>
+
+        <div className="flex gap-3 items-center mr-6">
+            <a href="/signup"><button className="w-25 md:w-fit border-transparent bg-gradient-to-br from-indigo-500 to-purple-600 text-white cursor-pointer rounded-lg p-2 hover:scale-105 hover:shadow-[0_0_18px_rgba(79,70,229,0.45)]transition-all duration-300 ease-out">Download PDF</button></a>
+        </div>
+    </nav>
+  )
+}
+
+export default Navbar

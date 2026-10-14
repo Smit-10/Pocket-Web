@@ -3,7 +3,7 @@ import DashboardImg from "../images/dashboard_img.png"
 
 function Hero() {
   return (
-    <div id="hero" className="flex items-center p-8 mx-4 flex-col md:flex-row">
+    <div id="hero" className="flex items-center p-8 mx-4 flex-col md:flex-row scroll-mt-15">
         <div className="w-2/3 flex flex-col p-4">
             <div className="p-1 px-2 bg-purple-200 w-fit text-sm text-purple-500 text-bold font-bold rounded-2xl">
                 Your Personal Desktop Assistant

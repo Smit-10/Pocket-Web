@@ -1,17 +1,19 @@
 import Logo from "../logo/Logo"
+import {useNavigate} from 'react-router-dom'
 
 function Navbar() {
+    const navigate = useNavigate()
   return (
     <nav className="fixed top-0 z-50 flex gap-8 justify-between border-b border-gray-100 w-full backdrop-blur-md bg-white/60 h-15">
         <div className="p-2 px-6">
-            <Logo color={"black"} AIcolor={"bg-[linear-gradient(135deg,#00ffff,#6f3cff,#ff4fd8)]"}/>
+            <Logo color={"black"} textSize={2} AIcolor={"bg-[linear-gradient(135deg,#00ffff,#6f3cff,#ff4fd8)]"}/>
         </div>
 
         <div className="hidden md:flex gap-15 items-center">
             <a href="#features"><div className="cursor-pointer hover:text-purple-700">Features</div></a>
             <a href="#HowItWorks"><div className="cursor-pointer hover:text-purple-700">How it works</div></a>
             <a href="#UseCases"><div className="cursor-pointer hover:text-purple-700">Use Cases</div></a>
-            <a href=""><div className="cursor-pointer hover:text-purple-700">Docs</div></a>
+            <div className="cursor-pointer hover:text-purple-700" onClick={() => navigate('/docs')}>Docs</div>
         </div>
 
         <div className="flex gap-3 items-center mr-6">
