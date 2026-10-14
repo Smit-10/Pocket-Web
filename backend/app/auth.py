@@ -32,6 +32,7 @@ def login_user(login : login_user):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,detail="Invalid email or password")
     
     return {
-        "message": "Login Successfull"
+        "message": "Login Successfull",
+        "token":result['access_token']
     }
 
